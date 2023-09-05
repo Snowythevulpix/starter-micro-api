@@ -15,7 +15,7 @@ app.use(session({
 
 const CLIENT_ID = '1148574567644807218';
 const CLIENT_SECRET = 'anVgkbw4vnwj_pZOvGp3KBwiQj7i--_R';
-const REDIRECT_URI = 'https://thankful-galoshes-fish.cyclic.app';
+const REDIRECT_URI = 'https://worried-tuna-swimsuit.cyclic.app';
 
 
 // Handle the initial OAuth2 request from your GitHub Pages site
@@ -55,7 +55,7 @@ app.get('/callback', async (req, res) => {
     req.session.accessToken = tokenData.access_token;
 
     // Redirect back to your GitHub Pages site or wherever you want
-    res.redirect('https://your-github-pages-site-url.com');
+    res.redirect('https://psyduckanime.lol');
 });
 
 app.listen(PORT, () => {
